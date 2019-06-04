@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="container">
+        <h6>Employee Transfer Alert</h6>
+
+        <div class="row">
+          <div class="col">
+            <table>
+              <tr>
+                <td>
+                  <label for="notification-number">Notification Number :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="notification-number"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="transfer-request-number"
+                    >Transfer Request Number :</label
+                  >
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="transfer-request-number"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="employee-uid">Employee UID :</label>
+                </td>
+                <td>
+                  <input type="text" id="employee-uid" name="form-control" />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="department">Department :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="department"
+                    style="width: 150px;"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="position">Position :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="position"
+                    style="width: 150px;"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="skill">Skill :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="skill"
+                    name="form-control"
+                    style="width: 250px;"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="col">
+            <table>
+              <tr>
+                <td>
+                  <label for="notification-date">Notification Date :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    style="width: 100px"
+                    id="notification-date"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="transfer-request-date"
+                    >Transfer Request Date :</label
+                  >
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    style="width: 100px"
+                    id="transfer-request-number"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="first-name">First Name :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="first-name"
+                    style="width: 250px"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="middle-name">Middle Name :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="middle-name"
+                    style="width: 150px;"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="last-name">Last Name :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="last-name"
+                    style="width: 150px;"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <hr color="black" />
+
+        <h6>Host Country Details</h6>
+
+        <div class="row">
+          <div class="col">
+            <table>
+              <tr>
+                <td>
+                  <label for="host-city">Host City :</label>
+                </td>
+                <td>
+                  <input type="text" id="host-city" name="form-control" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="department">Department :</label>
+                </td>
+                <td>
+                  <input type="text" id="department" name="form-control" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="start-date">Start Date :</label>
+                </td>
+                <td>
+                  <input type="text" id="start-date" name="form-control" />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="position">Position :</label>
+                </td>
+                <td>
+                  <input type="text" id="position" name="form-control" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="family-allowed">Family Allowed :</label>
+                  <p><small class="text-danger">yes/no</small></p>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="family-allowed"
+                    style="width: 50px;"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="col">
+            <table>
+              <tr>
+                <td>
+                  <label for="host-country">Host Country :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="host-country"
+                    style="width: 60px;"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="position">Position :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="position"
+                    style="width: 60px;"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="end-date">End Date :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="end-date"
+                    style="width: 60px;"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="department">Department :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="department"
+                    style="width: 150px;"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="no-of-children">No of Children :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="no-of-children"
+                    style="width: 50px;"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <hr color="black" />
+
+        <h6>Information</h6>
+
+        <div class="row">
+          <div class="col">
+            <textarea name="" id="textarea" cols="50" rows="3"></textarea>
+          </div>
+          <div class="col">
+            <table>
+              <tr>
+                <td>
+                  <label for="hr-owner">HR Owner :</label>
+                </td>
+                <td>
+                  <input type="text" id="hr-owner" name="form-control" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="accepted-by-employee"
+                    >Accepted By Employee :</label
+                  >
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    style="width: 50px;"
+                    id="accepted-by-employee"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="employee-email-id">Employee Email-id :</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    style="width: 250px;"
+                    id="employee-email-id"
+                    name="form-control"
+                  />
+                </td>
+              </tr>
+            </table>
+
+            <br />
+            <br />
+            <input
+              type="button"
+              class="btn btn-sm btn-primary button-custom"
+              disabled
+              value="Discard"
+            />
+            <input
+              type="button"
+              class="btn btn-sm btn-primary button-custom button-2"
+              value="Edit"
+            />
+            <input
+              type="button"
+              class="btn btn-sm btn-primary button-custom"
+              value="Save"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+###Expressions###
+----------------------
+1-Angular expressions are same as javascript expresions.
+
+###Modules###
+----------------------
+1-Controller always belong to a module.
+2-Module contains controller and different part of the application.
+

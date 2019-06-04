@@ -1,0 +1,29 @@
+.check {
+  background-color: red;
+}
+h6 {
+    color: blue;
+  }
+body {
+    font-size: 0.7rem;
+  }
+.outer {
+  width: 80%;
+}
+
+td:first-child {
+  text-align: right;
+}
+.button-custom {
+  padding: 2px 10px;
+  min-width: 80px;
+  background-color: blue;
+  border: 0;
+}
+.button-2 {
+  background-color: blueviolet;
+}
+label{
+    display: block;
+    min-width: 150px;
+}
